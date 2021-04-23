@@ -28,3 +28,4 @@ const applicationHTML = `
 
 mainContainer.innerHTML = applicationHTML
 
+// DELETE ME
