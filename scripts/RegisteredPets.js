@@ -2,8 +2,6 @@ import { getPets } from "./database.js"
 
 const pets = getPets()
 
-
-
 export const RegisteredPets = () => {
     let petHTML = "<ul>"
 
