@@ -1,6 +1,7 @@
 import { Walkers } from "./Walkers.js"
 import { CityList } from "./CityList.js"
 import { Assignments } from "./Assignments.js"
+import { registeredPets } from "./RegisteredPets.js"
 
 const mainContainer = document.querySelector("#container")
 
@@ -17,6 +18,7 @@ const applicationHTML = `
     </section>
     <section class="detail--column list details__cities">
         <h2>Pets</h2>
+        ${registeredPets()}
     </section>
 </article>
 
